@@ -3,7 +3,7 @@ import logging
 
 #Configuration 
 # Set environment and suppress TensorFlow warnings
-os.environ['DEEPFACE_HOME'] = "C:/Users/nemad/deepface_cache"
+os.environ['DEEPFACE_HOME'] = ""
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 # Configure logging for the main application
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -21,3 +21,4 @@ DETECTION_COOLDOWN = 0.1
 ANALYSIS_TIMEOUT = 1.5 
 TRACKER_RETRY_ATTEMPTS = 2
 TRACKER_RETRY_COOLDOWN = 0.3 
+
